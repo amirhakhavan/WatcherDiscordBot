@@ -18,7 +18,7 @@ client = commands.Bot(command_prefix="", intents=intents, application_id=1330186
 # ID of the specific channel
 TARGET_CHANNEL_ID = 1330191585190875136  # Replace with your channel's ID
 
-Token = "your-bot-token"  # Replace with your bot's token
+DISCORD_TOKEN_BOT = ""  # Replace with your bot's token
 
 # Tehran timezone
 tehran_tz = timezone("Asia/Tehran")
@@ -149,4 +149,4 @@ async def onlinelist(interaction: discord.Interaction):
 
 
 # Run the bot
-client.run(Token)
+client.run(DISCORD_TOKEN_BOT)
